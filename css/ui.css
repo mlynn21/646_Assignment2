@@ -1,0 +1,94 @@
+/*TABS*/
+.ui-tabs-vertical { width: 100%; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: left;  width: 30em;}
+/* changed width to 30em from 40em, and floated left so the tabs and content would be side by side with no white space above */
+
+
+/*CYCLE2 SLIDESHOW*/
+.fa-angle-left {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    position:absolute;
+    top:45%;
+    left:25%; 
+}
+
+.fa-angle-right {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    position:absolute;
+    top:45%;
+    right:25%;   
+}
+
+/*NAVIGATION TOOLTIPS*/
+label {
+    display: inline-block;
+    width: 5em;
+  }
+
+/*SOLUTIONS */
+  #vprospect {
+    background-image: url(../images/logo_vprospect.gif);
+    background-repeat: no-repeat;
+    padding-left: 75px;
+    margin-top:5px;
+}
+#vconvert {
+    background-image: url(../images/logo_vconvert.gif);
+    background-repeat: no-repeat;
+    padding-left: 75px;
+}
+#vretain {
+    background-image: url(../images/logo_vretain.gif);
+    background-repeat: no-repeat;
+    padding-left: 75px;
+}
+#vprospect ul li, #vconvert ul li, #vretain ul li {
+    list-style-type: disc;
+}
+
+
+/* STICKY SIDEBAR */
+.quickNav{
+    background-color: #DFE3E6;
+    position: sticky;
+    position: -webkit-sticky;
+    padding:10px;
+    border-radius: 5%;
+    top: 0;
+  }
+  .quickNavContainer {
+    height: 100vh;
+    
+  }
+  .quickNav ul li {
+    line-height: .5em;
+  }
+  .quickNav ul li a {
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+  /*CONTACT US*/
+
+  /* selectmenu */
+  /* fieldset {
+    border: 0;
+  } */
+  .selectLabel {
+    display: block;
+    margin: 30px 0 0 0;
+  }
+  .overflow {height: 200px;}
+
+  /*Additional styling for checkboxes and radio buttons*/
+.checkbox {width: 26%;}
+.radio {width:18%;}
+
